@@ -1,0 +1,74 @@
+# ==================== Maven ====================
+target/
+*.jar
+*.war
+*.ear
+*.class
+
+# ==================== IntelliJ IDEA ====================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+classes/
+
+# ==================== Eclipse ====================
+.settings/
+.project
+.classpath
+bin/
+
+# ==================== VS Code ====================
+.vscode/
+
+# ==================== Logs ====================
+*.log
+logs/
+log/
+
+# ==================== Temporary files ====================
+*.tmp
+*.temp
+*.bak
+*~
+
+# ==================== OS files ====================
+.DS_Store
+Thumbs.db
+
+# ==================== Docker ====================
+.docker/
+docker-compose.override.yml
+
+# ==================== Environment & Secrets ====================
+.env
+*.env
+.env.local
+.env.*.local
+
+# ==================== Maven Wrapper ====================
+.mvn/wrapper/maven-wrapper.jar
+
+# ==================== Spring Boot DevTools ====================
+.spring-boot-devtools.properties
+
+# ==================== Test reports ====================
+surefire-reports/
+failsafe-reports/
+
+# ==================== Coverage ====================
+jacoco.exec
+coverage/
+cobertura/
+
+# ==================== Kubernetes / Helm ====================
+**/charts/**/*.tgz
+
+# ==================== Shared modules build artifacts ====================
+shared/*/target/
+services/*/target/
+
+# ==================== Local Docker volumes ====================
+docker/volumes/
+docker/data/
